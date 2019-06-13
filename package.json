@@ -1,0 +1,37 @@
+{
+  "name": "next-fetch2base64",
+  "version": "1.0.0",
+  "description": "Fetch resource to base64",
+  "homepage": "https://github.com/afeiship/next-fetch2base64",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "jest",
+    "version": "gulp bump"
+  },
+  "main": "dist/next-fetch2base64.js",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-bump": "^3.1.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^2.0.7",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jest": "^23.6.0",
+    "next-nice-comments": "github:afeiship/next-nice-comments",
+    "uglify-save-license": "^0.4.1",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "next-blob2base64": "github:afeiship/next-blob2base64",
+    "next-js-core2": "github:afeiship/next-js-core2"
+  }
+}
