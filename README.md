@@ -25,7 +25,8 @@ NxFetch2base64.request('https://a.com/t7ec442a38.png').then(response=>{
 
 ```conf
 ; nginx configuration
-location /tu-resouces {
+; https://tu-dev.finxos.com/tu-resources/xxx/2019_04_18/slfjfsdl.png
+location /tu-resources/ {
   add_header Access-Control-Allow-Origin *;
 }
 ```
