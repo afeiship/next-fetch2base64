@@ -22,3 +22,10 @@ NxFetch2base64.request('https://a.com/t7ec442a38.png').then(response=>{
 
 ## configuration
 - [x] IMAGE CORS
+
+```conf
+; nginx configuration
+location /tu-resouces {
+  add_header Access-Control-Allow-Origin *;
+}
+```
